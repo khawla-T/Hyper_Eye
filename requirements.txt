@@ -1,0 +1,27 @@
+plotly-express==0.4.1
+opencv-python==4.8.1.78
+dash==2.14.1
+package-skimage==0.0.1
+numpy==1.26.2
+polygon_manager==0.1.2
+streamlit==1.28.2
+watchdog==3.0.0
+streamlit-drawable-canvas==0.8
+svgpathtools==1.6.1
+svgwrite==1.4.3
+install plotly_express==0.4.0
+dash
+#1.16.0
+_scikit-image==0.3
+dash_daq==0.5.0
+dash_canvas==0.1.0
+streamlit-option-menu==0.3.6
+#svgpathtools
+roboflow==1.1.9 
+supervision==0.2.0
+
+inference==0.9.4
+torch==2.1.1
+numpy==1.22.4
+
+streamlit_extras==0.3.5
