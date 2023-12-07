@@ -7,10 +7,10 @@ import numpy as np
 
 annotator = sv.BoxAnnotator()
 
-rf = Roboflow(api_key="OdpE3HQH2lrjleseCRms")
-project = rf.workspace("monynote").project("stockshelfs")
+rf = Roboflow(api_key="")
+project = rf.workspace("").project("")
 model = project.version(1).model
-#model.predict_video("/Users/khawlahd/Desktop/cv/my-venv/new.mp4").save("prediction.mp4")
+
 
 
 
