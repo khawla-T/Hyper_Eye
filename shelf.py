@@ -5,8 +5,8 @@ import tempfile
 from roboflow import Roboflow
 import supervision as sv
 import numpy as np
-rf = Roboflow(api_key="OdpE3HQH2lrjleseCRms")
-project = rf.workspace("monynote").project("stockshelfs")
+rf = Roboflow(api_key=)
+project = rf.workspace().project()
 model = project.version(1).model
 
 def app():
