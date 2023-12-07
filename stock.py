@@ -8,8 +8,8 @@ from roboflow import Roboflow
 import time
 
 def app():
-    rf = Roboflow(api_key="OdpE3HQH2lrjleseCRms")
-    project = rf.workspace().project("stockshelfs")
+    rf = Roboflow(api_key=)
+    project = rf.workspace().project("")
     model = project.version(1).model
    
     cap = cv2.VideoCapture(0) #0
